@@ -1,34 +1,41 @@
 
 .header {
-	display: flex;
-	align-items: center;
-	min-height: 60px;
+	border-bottom: 1px solid var(--border-header-color);
+	text-align: center;
 }
 .header__container{
-
+	display: flex;
+	justify-content: space-between;
 }
 
 .nav {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
-
 .nav__list {
-	display: none;
+	display: flex;
 }
 .nav__list .link.current {
 	color: var(--accent-color);
 }
 .nav__item:not(:last-child) {
-
+	margin-right: 50px;
 }
 .nav__link {
+	display: block;
+	position: relative;
+	padding-top: 32px;
+	padding-bottom: 32px;
 
+	color: var(--title-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
 }
 
 .contacts {
-	display: none;
+	display: flex;
+	margin-left: auto;
 }
 .contacts__item:not(:last-child) {
 	margin-right: 50px;

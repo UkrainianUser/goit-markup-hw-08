@@ -8,10 +8,10 @@
 .mobile-btn .mobile-btn__icon-close {
 	display: none;
 }
-.mobile-btn__mobile-btn.is-open .mobile-btn__icon-close {
+.mobile-btn.is-open .mobile-btn__icon-close {
 	display: block;
 }
-.mobile-btn__mobile-btn.is-open .mobile-btn__icon-menu {
+.mobile-btn.is-open .mobile-btn__icon-menu {
 	display: none;
 }
 .is-open {
