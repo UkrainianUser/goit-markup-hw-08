@@ -1,11 +1,16 @@
 
 .header {
+	height: 60px;
 	border-bottom: 1px solid var(--border-header-color);
 	text-align: center;
 }
 .header__container{
+	/*
 	display: flex;
+	/*
 	justify-content: space-between;
+	align-items: center;
+	*/
 }
 
 .nav {
@@ -13,7 +18,8 @@
 	align-items: center;
 }
 .nav__list {
-	display: flex;
+	display: none;
+	/*display: flex;*/
 }
 .nav__list .link.current {
 	color: var(--accent-color);
@@ -34,8 +40,11 @@
 }
 
 .contacts {
+	display: none;
+	/*
 	display: flex;
 	margin-left: auto;
+	*/
 }
 .contacts__item:not(:last-child) {
 	margin-right: 50px;

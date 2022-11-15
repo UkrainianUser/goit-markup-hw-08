@@ -82,6 +82,10 @@
 	gap: 7px;
 	margin-bottom: 30px;
 }
+.policy__text {
+	font-size: 12px;
+	line-height: 1.16;
+}
 .policy__input {
 	position: absolute;
 	appearance: none;
@@ -97,6 +101,8 @@
 	background-image: url(../images/checkbox.svg);
 }
 .policy__link {
+	font-size: 12px;
+	line-height: 1.16;
 	color: var(--accent-color)
 }
 .response__btn {
