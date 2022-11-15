@@ -1,23 +1,31 @@
 .customers {
 	text-align: center;
+	/*
 	padding-top: 94px;
 	padding-bottom: 94px;
+	*/
 }
 .customers__list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	gap: 30px;
 }
+
 .customers__link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 170px;
+	width: 210px;
 	height: 92px;
 	border: 1px solid var(--elements-grey-color);
 	border-radius: 4px;
 	transition: border-color 250ms var(--timing-function);
 
+	/*
+	width: 170px;
+	*/
+	
 	&:hover,
 	&:focus {
 	border-color: var(--accent-color);
