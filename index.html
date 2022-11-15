@@ -31,6 +31,7 @@
             class="mobile-btn is-open"
             type="button"
             aria-expanded="false"
+            aria-controls="mobile-btn"
           >
             <svg
               width="40px"
@@ -48,7 +49,7 @@
             </svg>
           </button>
 
-          <ul class="nav__list list">
+          <ul class="nav__list list js-menu-container">
             <li class="nav__item">
               <a class="nav__link link current" href="./index.html">Студія</a>
             </li>
@@ -211,26 +212,22 @@
                       ><svg class="social__icon" width="20px" height="20px">
                         <use
                           href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        ></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
               </div>
@@ -251,26 +248,22 @@
                       ><svg class="social__icon" width="20px" height="20px">
                         <use
                           href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        ></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
               </div>
@@ -291,26 +284,22 @@
                       ><svg class="social__icon" width="20px" height="20px">
                         <use
                           href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        ></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
               </div>
@@ -331,26 +320,22 @@
                       ><svg class="social__icon" width="20px" height="20px">
                         <use
                           href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        ></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-twitter"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
                   <li>
                     <a class="social__link link" href="#"
                       ><svg class="social__icon" width="20px" height="20px">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
                   </li>
                 </ul>
               </div>
@@ -358,10 +343,9 @@
           </ul>
         </div>
       </section>
-    </main>
 
-    <!--Секція Постійні клієнти-->
-    <section class="customers section">
+          <!--Секція Постійні клієнти-->
+      <section class="customers section">
       <div class="container">
         <h2 class="section__title">Постійні клієнти</h2>
         <ul class="customers__list list">
@@ -415,7 +399,9 @@
           </li>
         </ul>
       </div>
-    </section>
+      </section>
+
+    </main>
 
     <footer class="footer">
       <div class="footer__container container">
@@ -460,8 +446,7 @@
                   width="20px"
                   height="20px"
                 >
-                  <use href="./images/icons.svg#icon-instagram"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-instagram"></use></svg></a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--bg-color link" href="#"
@@ -470,8 +455,7 @@
                   width="20px"
                   height="20px"
                 >
-                  <use href="./images/icons.svg#icon-twitter"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-twitter"></use></svg></a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--bg-color link" href="#"
@@ -480,8 +464,7 @@
                   width="20px"
                   height="20px"
                 >
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-facebook"></use></svg></a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--bg-color link" href="#"
@@ -490,8 +473,7 @@
                   width="20px"
                   height="20px"
                 >
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
             </li>
           </ul>
         </div>
