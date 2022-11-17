@@ -28,10 +28,8 @@
           >
 
           <button
-            class="mobile-btn is-open"
+            class="mobile-btn-burger js-open-menu"
             type="button"
-            aria-expanded="false"
-            aria-controls="mobile-btn"
           >
             <svg
               width="40px"
@@ -39,17 +37,13 @@
               aria-label="Перемикач мобільного меню"
             >
               <use
-                class="mobile-btn__icon-close"
-                href="./images/icons.svg#icon-header-close_40px"
-              ></use>
-              <use
-                class="mobile-btn__icon-menu"
+                class="mobile-btn-burger__icon"
                 href="./images/icons.svg#icon-header-menu_40px"
               ></use>
             </svg>
           </button>
 
-          <ul class="nav__list list js-menu-container">
+          <ul class="nav__list list">
             <li class="nav__item">
               <a class="nav__link link current" href="./index.html">Студія</a>
             </li>
@@ -61,6 +55,7 @@
             </li>
           </ul>
         </nav>
+
         <!--Контакти-->
         <ul class="contacts list">
           <li class="contacts__item">
@@ -497,6 +492,63 @@
         </div>
       </div>
     </footer>
+
+    <div class="mobile-menu js-menu-container">
+        <nav class="mobile-menu__nav">
+          <ul class="list js-menu-container">
+            <li>
+              <a class="mobile-menu__link link current" href="./index.html">Студія</a>
+            </li>
+            <li>
+              <a class="mobile-menu__link link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li>
+              <a class="mobile-menu__link link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="mobile-container">
+          <ul class="mobile-contacts list">
+            <li class="mobile-contacts__item">
+              <a class="mobile-contacts__tel link" href="tel:+380961111111">
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="mobile-contacts__item">
+              <a class="mobile-contacts__email link" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="mobail-menu__social list">
+            <li class="mobail-menu__social-item"><a href="#" class="mobail-menu__social-link link">Instagram</a></li>
+            <li class="mobail-menu__social-item"><a href="#" class="mobail-menu__social-link link">Twitter</a></li>
+            <li class="mobail-menu__social-item"><a href="#" class="mobail-menu__social-link link">Facebook</a></li>
+            <li class="mobail-menu__social-item"><a href="#" class="mobail-menu__social-link link">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <button
+        class="mobile-menu__btn-close js-close-menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-btn"
+      >
+          <svg
+          width="40px"
+          height="40px"
+          aria-label="Перемикач мобільного меню"
+        >
+           <use
+            class="mobile-btn-close__icon"
+            href="./images/icons.svg#icon-header-close_40px"
+          ></use>
+          </svg>
+        </button>
+
+      </div>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
