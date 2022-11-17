@@ -1,7 +1,15 @@
 .filter {
 	display: flex;
+	justify-content: start;
+	flex-wrap: wrap;
+	column-gap: 8px;
+	row-gap: 15px;
+	margin-bottom: 46px;
+	/*
+	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
+	*/
 }
 .filter__item:not(:last-child) {
 	margin-right: 8px;
