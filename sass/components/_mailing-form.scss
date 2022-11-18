@@ -1,6 +1,11 @@
 .mailing-form {
 	margin-left: auto;
 	padding-top: 12px;
+
+	@media screen and (min-width: 768px) {
+		margin: 0;
+		padding: 0;
+	}
 }
 .mailing-form__text {
 	font-weight: 700;
