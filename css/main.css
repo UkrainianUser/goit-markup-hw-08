@@ -630,6 +630,11 @@ img {
   margin-bottom: 60px;
   background-color: var(--primary-white-color);
 }
+@media screen and (min-width: 1200px) {
+  .benefits {
+    margin-bottom: 0;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .benefits__list {
@@ -1029,6 +1034,11 @@ img {
   background-color: var(--primary-white-color);
   text-align: center;
   padding-bottom: 94px;
+}
+@media screen and (min-width: 1200px) {
+  .works {
+    display: block;
+  }
 }
 
 .works__list {
