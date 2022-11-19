@@ -584,6 +584,11 @@ img {
   background-color: var(--primary-white-color);
   transition: transform 250ms var(--timing-function);
 }
+@media screen and (max-width: 479px) {
+  .modal {
+    width: calc(100% - 30px);
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
