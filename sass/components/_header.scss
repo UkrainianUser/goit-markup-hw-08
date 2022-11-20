@@ -79,7 +79,7 @@
 }
 .contacts__item:not(:last-child) {
 	@media screen and (min-width: 1200px) {
-	margin-right: 50px;
+		margin-right: 50px;
 	}
 }
 .contacts__link{
@@ -96,6 +96,11 @@
 		line-height: 1.16;
 		padding-top: 5px;
 		padding-bottom: 5px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		font-size: 14px;
+		line-height: 1.17;
 	}
 }
 .contacts__img {

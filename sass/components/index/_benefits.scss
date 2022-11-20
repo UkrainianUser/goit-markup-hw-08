@@ -4,7 +4,7 @@
 	background-color: var(--primary-white-color);
 
 	@media screen and (min-width: 1200px) {
-		margin-bottom: 0;	
+		margin-bottom: 0;
 	}
 }
 .benefits__list {
@@ -29,6 +29,7 @@
 	@media screen and (min-width: 768px) {
 		min-width: 354px;
 		flex-basis: calc((100% - 4 * 15px) / 2);
+		margin-bottom: 0;
 	}
 
 	@media screen and (min-width: 1200px) {

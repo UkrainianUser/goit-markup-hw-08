@@ -64,6 +64,10 @@
 }
 .footer__list {
 	margin-bottom: 60px;
+
+	@media screen and (min-width: 1200px) {
+		margin-bottom: 0;
+	}
 }
 .footer__social {
 	padding-top: 12px;
@@ -71,6 +75,9 @@
 
 	@media screen and (min-width: 768px) {
 		padding-top: 0;
+	}
+	@media screen and (min-width: 1200px) {
+		margin-bottom: 0;
 	}
 }
 .footer__text {
