@@ -135,6 +135,11 @@ img {
   border-radius: 2px;
   content: "";
 }
+@media screen and (max-width: 767px) {
+  .current::after {
+    display: none;
+  }
+}
 
 /*Footer*/
 .footer {
@@ -474,6 +479,10 @@ img {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
+}
+
+.mobile-current {
+  color: var(--accent-color);
 }
 
 .mailing-form {
