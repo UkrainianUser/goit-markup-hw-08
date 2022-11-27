@@ -470,8 +470,16 @@ img {
 .mobail-menu__social {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-top: 32px;
+}
+
+.mobail-menu__social-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mobail-menu__social-item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .mobail-menu__social-link {
